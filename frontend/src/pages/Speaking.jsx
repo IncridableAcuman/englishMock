@@ -1,8 +1,13 @@
 import React from 'react'
+import SecondBar from '../components/SecondBar'
+import Sidebar from '../components/Sidebar'
 
 const Speaking = () => {
   return (
-    <div>Speaking</div>
+    <>
+      <Sidebar/>
+      <p className='text-center'>Keep coding</p>
+    </>
   )
 }
 

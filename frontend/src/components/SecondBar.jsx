@@ -1,6 +1,6 @@
-import { useState } from "react"
-import {Home, LogOut, Menu, Settings, User, X,Speaker,Headphones,Book,Pen} from 'lucide-react'
-const Sidebar = () => {
+import React, { useState } from 'react'
+
+const SecondBar = () => {
     const [isOpen,setIsOpen] = useState(false);
     const menuItems = [
         {name:"Home",icon:<Home size={20} />,path:'/'},
@@ -12,7 +12,6 @@ const Sidebar = () => {
         {name:"Settings",icon:<Settings size={20} />, path:"#"},
         {name:"Logout",icon:<LogOut size={20} />, path:"#"}
     ]
-
   return (
     <>
     <div className="flex">
@@ -57,4 +56,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar
+export default SecondBar

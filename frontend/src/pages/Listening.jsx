@@ -1,8 +1,12 @@
 import React from 'react'
+import Sidebar from '../components/Sidebar'
 
 const Listening = () => {
   return (
-    <div>Listening</div>
+    <>
+    <Sidebar/>
+    <p className='text-center'>We currently doing this project </p>
+    </>
   )
 }
 

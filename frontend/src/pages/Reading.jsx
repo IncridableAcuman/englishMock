@@ -1,8 +1,12 @@
 import React from 'react'
+import Sidebar from '../components/Sidebar'
 
 const Reading = () => {
   return (
-    <div>Reading</div>
+    <>
+    <Sidebar/>
+    <p className='text-center'>I like coffee and coding</p>
+    </>
   )
 }
 
