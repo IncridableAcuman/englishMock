@@ -20,7 +20,7 @@ const Sidebar = () => {
             ${isOpen ? "translate-x-0" : "-translate-x-64"} 
             transition-transform duration-300 ease-in-out lg:translate-x-0`}>
                 <div className="flex items-center justify-between p-4 border-b border-gray-700">
-                      <h2 className="text-lg font-semibold">Dashboard</h2>                     
+                      <h2 className="text-lg font-semibold">English</h2>                     
                     {isOpen && (
                        <button className="lg:hidden text-gray-300 hover:text-white"
                     onClick={()=>setIsOpen(false)}>
@@ -49,8 +49,7 @@ const Sidebar = () => {
             )}
             
             <div className="flex-1 p-6 lg:ml-64">
-                <h1 className="text-2xl font-bold">Welcome to the Dashboard</h1>
-                <p className="mt-2 text-gray-600">This is a main content area.</p>
+                <h1 className="text-2xl font-bold">Multilevel mock practice</h1>
             </div>
     </div>
     </>
