@@ -227,7 +227,7 @@ const Listening = () => {
                 Bekor qilish
               </button>
               <Link
-                to="/final"
+                to="/english/listening/result"
                 onClick={closeModal}
                 className="bg-green-500 text-white px-4 py-2 rounded"
               >

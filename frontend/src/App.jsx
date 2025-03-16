@@ -9,6 +9,8 @@ import Listening from './pages/Listening';
 import Reading from './pages/Reading';
 import Final from './pages/Final';
 import Buying from './pages/Buying';
+import Result from './pages/Result';
+import ReadingResult from './pages/ReadingResult';
 const App = () => {
   return (
     <>
@@ -23,6 +25,8 @@ const App = () => {
         <Route path="/english/listening" element={<Listening />} />
         <Route path="/english/final" element={<Final />} />
         <Route path="/english/buying" element={<Buying />} />
+        <Route path="/english/listening/result" element={<Result />} />
+        <Route path="/english/reading/result" element={<ReadingResult />} />
     </Routes>
     </>
   )

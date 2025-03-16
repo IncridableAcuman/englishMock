@@ -220,7 +220,7 @@ const Reading = () => {
                 Bekor qilish
               </button>
               <Link
-                to="/final"
+                to="/english/reading/result"
                 onClick={closeModal}
                 className="bg-green-500 text-white px-4 py-2 rounded"
               >
