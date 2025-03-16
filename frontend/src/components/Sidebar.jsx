@@ -1,15 +1,11 @@
 import { useState } from "react"
-import {Home, LogOut, Menu, Settings, User, X,Speaker,Headphones,Book,Pen} from 'lucide-react'
+import {Home, LogOut, Menu, Settings, User, X,Book} from 'lucide-react'
 const Sidebar = () => {
     const [isOpen,setIsOpen] = useState(false);
     const menuItems = [
         {name:"Home",icon:<Home size={20} />,path:'/'},
-        {name:"Speaking",icon:<Speaker size={20} />,path:'/speaking'},
-        {name:"Listening",icon:<Headphones size={20} />,path:'/listening'},
-        {name:"Reading",icon:<Book size={20} />,path:'/reading'},
-        {name:"Writing",icon:<Pen size={20} />,path:'/writing'},
         {name:"Profile",icon:<User size={20} />,path:"#"},
-        {name:"Settings",icon:<Settings size={20} />, path:"#"},
+        {name:"English",icon:<Book size={20} />, path:"/english"},
         {name:"Logout",icon:<LogOut size={20} />, path:"#"}
     ]
 
